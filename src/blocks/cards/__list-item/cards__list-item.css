@@ -1,0 +1,10 @@
+.cards__list-item {
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+  min-width: 282px;
+  min-height: 361px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

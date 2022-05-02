@@ -1,0 +1,9 @@
+.popup__image {
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+    height: 120px;
+    position: center;
+    background: none;
+}
