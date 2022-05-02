@@ -182,7 +182,6 @@ function App() {
     auth
       .tokenCheck(token)
       .then((res) => {
-        console.log(res);
         if (res) {
           setHeaderMail(res.data.email);
           setLoggedIn(true);
@@ -195,7 +194,6 @@ function App() {
   }
 
   function logout() {
-    localStorage.removeItem("jwt");
     navigate("/sign-in");
     setLoggedIn(false);
   }

@@ -1,6 +1,9 @@
 .header__link {
   margin: 0;
   text-decoration: none;
+  background-color: black;
+  border: none;
+  height: 22px;
   font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -14,6 +17,7 @@
 
 .header__link:hover {
   opacity: 0.6;
+  cursor: pointer;
 }
 
 .header__link-logout{

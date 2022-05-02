@@ -7,7 +7,7 @@ function ImagePopup(props) {
       }}
     >
       <div className="popup__image-container">
-        <img className="popup__img" alt=" " src={props.card.link} />
+        <img className="popup__img" alt={props.card.name} src={props.card.link} />
         <h2 className="popup__caption">{props.card.name}</h2>
         <button
           type="button"

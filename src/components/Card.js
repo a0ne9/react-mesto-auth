@@ -1,5 +1,5 @@
 import React from "react";
-import {CurrentUserContext} from "../contexts/CurrentUserContext";
+import { CurrentUserContext } from "../contexts/CurrentUserContext";
 
 function Card(props) {
   const currentUser = React.useContext(CurrentUserContext);
@@ -13,7 +13,7 @@ function Card(props) {
   }`;
 
   const cardLikeButtonClassName = `${
-      isLiked ? "cards__like-button_active" : "cards__like-__button"
+    isLiked ? "cards__like-button_active" : "cards__like-button"
   }`;
 
   function handleClick() {
@@ -25,7 +25,7 @@ function Card(props) {
   }
 
   function handleDeleteClick() {
-    props.onCardDelete(props.card)
+    props.onCardDelete(props.card);
   }
 
   return (
@@ -37,7 +37,7 @@ function Card(props) {
       ></button>
       <img
         className="cards__image"
-        alt=" "
+        alt={props.card.name}
         src={props.card.link}
         onClick={handleClick}
       />
