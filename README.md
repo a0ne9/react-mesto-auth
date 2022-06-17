@@ -11,7 +11,7 @@
 
 **Ссылка**
 
-* Ссылка на проект в Github-pages :
+* Ссылка на проект в Github-pages : https://a0ne9.github.io/react-mesto-auth/
 
 **Описание**
 
